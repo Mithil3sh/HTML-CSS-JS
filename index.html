@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="main box1">
+            <h1>Welcome to library</h1>
+            <div class="form">
+                <form id="form">
+                    <div class="control">
+                        <input type="text" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="error" id="nameE">
+
+                    </div>
+
+                    <div class="control">
+                        <input type="text" id="age" name="age" placeholder="Age">
+                    </div>
+                    <div class="error" id="ageE">
+
+                    </div>
+
+                    <div class="control">
+                        <input type="text" id="usn" name="usn" placeholder="USN">
+
+                    </div>
+
+                    <div class="error" id="usnE">
+
+                    </div>
+
+                    <div class="control">
+                        <select name="book" id="book">
+                            <option value="" hidden selected>Select a book</option>
+                            <option value="computer network">Computer Networks</option>
+                            <option value="system software">System Software</option>
+                            <option value="software engineer">Software Engineering</option>
+                            <option value="machine learning">Machine learning</option>
+                        </select>
+                    </div>
+                    <div class="error" id="bookE">
+
+                    </div>
+                    <div class="control">
+                        <input class="submit" type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="main box2">
+            <h1>Confirm Your Details</h1>
+            <div class="display">
+                <table border="4" width="100%">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>USN</th>
+                        <th>Book Added</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td id="nameD"></td>
+                        <td id="ageD"></td>
+                        <td id="usnD"></td>
+                        <td id="bookD"></td>
+                        <td id="priceD"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

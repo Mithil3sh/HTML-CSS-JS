@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  text-align: center;
+  border-radius: 1vh;
+  background-color: white;
+  box-shadow: 0vh 0vh 2vh 0px rgb(158, 158, 158);
+  padding: 5vh 0vh;
+  width: 40%;
+  margin: 2vh;
+}
+.box1{
+    margin-left: 10%;
+}
+.box2{
+    margin-right: 10%;
+    padding: 2vh;
+}
+.control {
+  margin: 2vh 0vh;
+}
+.submit {
+  color: white;
+  background-color: black;
+  border: none;
+}
+.flex{
+    display: flex;
+}
+.error{
+  height: 1vh;
+  color: red;
+}
+input,
+select {
+  width: 50%;
+  border: solid;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1vh;
+  border-color: darkgray;
+  height: 5vh;
+}
